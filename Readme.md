@@ -1,1 +1,1 @@
-Transcribe wordpress web to html+js
+Wordpress web to html+css+js
