@@ -382,7 +382,7 @@
 	padding: 10px 0px;
 }
 .us--description {
-	width: 1000px;
+	max-width: 1000px;
 	text-align: center;
 	color: var(--clr--grey);
 	font-size: 16px;
@@ -390,7 +390,7 @@
 }
 
 .container--us--images {
-	width: 1000px;
+	max-width: 1000px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
