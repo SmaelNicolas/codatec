@@ -77,15 +77,18 @@
 	list-style-type: none;
 }
 .container--navbar--desktop--ul--li {
-	margin: 0px 10px;
-	font-size: 14px;
-	font-weight: 500;
 	color: var(--clr--grey);
 	cursor: pointer;
 	transition: all 0.3s linear;
 }
-
-.container--navbar--desktop--ul--li:hover {
+.container--navbar--desktop--ul--li--a {
+	margin: 0px 10px;
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+	color: var(--clr--grey);
+}
+.container--navbar--desktop--ul--li--a:hover {
 	color: var(--clr--red);
 	transition: all 0.3s linear;
 }
@@ -446,6 +449,16 @@
 
 /* END SECTION FOOTER */
 /* -------------------------------------------------- */
+/* SECTION MAP */
+.container--map {
+	width: 100%;
+	height: 300px;
+	background-color: white;
+}
+
+/* END SECTION MAP */
+/* -------------------------------------------------- */
+
 /* SECTION xxxxx */
 /* END SECTION xxxxxx */
 /* -------------------------------------------------- */
