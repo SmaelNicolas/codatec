@@ -9,6 +9,11 @@
 			src="https://kit.fontawesome.com/12873818e3.js"
 			crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="/styles/styles.css" />
+		<script src='https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js'>
+		</script>
+		<link href='https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css' rel='stylesheet' />
+		<script src="./js/map.js" defer></script>
+
 	</head>
 	<body>
 		<div id="#top" class="container--web">
@@ -18,18 +23,46 @@
 					>CODA TECHNOLOGY</a
 				>
 				<ul class="container--navbar--desktop--ul">
-					<li class="container--navbar--desktop--ul--li">Inicio</li>
-					<li class="container--navbar--desktop--ul--li">Unify</li>
 					<li class="container--navbar--desktop--ul--li">
-						Servicios
+						<a
+							class="container--navbar--desktop--ul--li--a"
+							href="#inicio"
+							>Inicio</a
+						>
 					</li>
-					<li class="container--navbar--desktop--ul--li">Contacto</li>
-					<li class="container--navbar--desktop--ul--li">Mapa</li>
+					<li class="container--navbar--desktop--ul--li">
+						<a
+							class="container--navbar--desktop--ul--li--a"
+							href="#top"
+							>Unify</a
+						>
+					</li>
+					<li class="container--navbar--desktop--ul--li">
+						<a
+							class="container--navbar--desktop--ul--li--a"
+							href="#servicios"
+							>Servicios</a
+						>
+					</li>
+					<li class="container--navbar--desktop--ul--li">
+						<a
+							class="container--navbar--desktop--ul--li--a"
+							href="#contacto"
+							>Contacto</a
+						>
+					</li>
+					<li class="container--navbar--desktop--ul--li">
+						<a
+							class="container--navbar--desktop--ul--li--a"
+							href="#contacto"
+							>Mapa</a
+						>
+					</li>
 				</ul>
 			</nav>
 
 			<!-- HERO -->
-			<section class="container--hero">
+			<section id="inicio" class="container--hero">
 				<h1 class="hero--title">CODA TECHNOLOGY</h1>
 				<div class="container--hero--links">
 					<a
@@ -44,7 +77,7 @@
 			</section>
 
 			<!-- SERVICES -->
-			<section class="container--services">
+			<section id="servicios" class="container--services">
 				<h2 class="services--title">Servicios</h2>
 				<p class="services--description">
 					Brindamos Las Mejores Soluciones en Informática y
@@ -245,7 +278,14 @@
 					<p class="footer--card--description">0351 364-3246</p>
 				</div>
 			</footer>
+
+			<!-- MAPA -->
+			<div id='map' class="container--map"></div>
+
+			</div>
+
 			<!-- <div>Realizado por ViaTech</div> -->
 		</div>
+
 	</body>
 </html>
