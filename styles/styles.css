@@ -6,12 +6,18 @@
 	--clr--black: #000000;
 	--clr--grey: #404040;
 	--clr--grey--dark: #272727;
+	--clr--grey--light: #939393;
 	--clr--red: #e96656;
 	--clr--green-light: #52d1a08f;
 	--clr--button--us: #e96656;
 	--clr--button--us--hover: #cb4332;
 	--clr--button--contact: #1e9e6b;
 	--clr--button--contact--hover: #069059;
+
+	--clr--circle--one: #e96656;
+	--clr--circle--two: #34d293;
+	--clr--circle--three: #3ab0e2;
+	--clr--circle--four: #e7ac44;
 
 	--ff--montserrat: "Montserrat", sans-serif;
 	--ff--lato: "Lato", sans-serif;
@@ -118,7 +124,7 @@
 	color: white;
 	font-size: 14px;
 	letter-spacing: 0.5px;
-	padding: 15px 25px;
+	padding: 15px 35px;
 	margin: 10px;
 	border-radius: 4px;
 	transition: all 0.3s linear;
@@ -227,3 +233,105 @@
 }
 
 /* END SECTION QUESTION */
+/* -------------------------------------------------- */
+/* SECTION CHOOSE US */
+
+.container--choose {
+	width: 100%;
+	min-height: 700px;
+	background-color: var(--clr--grey--dark);
+	padding: 30px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	color: var(--clr--white);
+}
+
+.choose--title {
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 45px;
+	font-weight: 700;
+	font-family: var(--ff--montserrat);
+}
+.choose--description {
+	width: 500px;
+	text-align: center;
+	padding: 30px 0px;
+}
+.container--choose--info {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 0px;
+}
+.choose--info--left {
+	width: 350px;
+	height: 360px;
+	font-size: 60px;
+	font-weight: 300;
+	text-align: right;
+}
+.choose--info--middle {
+	width: 350px;
+	height: 360px;
+	font-family: var(--ff--lato);
+	font-size: 14px;
+	text-align: left;
+	line-height: 25px;
+	margin: 0px 30px;
+	padding-top: 20px;
+	color: var(--clr--grey--light);
+}
+.choose--info--right {
+	width: 350px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+}
+.choose--info--right--card {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0px;
+}
+.choose--info--right--card--number {
+	width: 70px;
+	height: 70px;
+	padding-left: 15px;
+	border-radius: 50%;
+	line-height: 55px;
+}
+.choose--info--right--card--description {
+	width: 270px;
+	font-size: 14px;
+	text-align: left;
+	font-weight: 700;
+	line-height: 24px;
+	margin-left: 10px;
+}
+
+.circle_1 {
+	border: 6px solid var(--clr--circle--one);
+}
+.circle_2 {
+	border: 6px solid var(--clr--circle--two);
+}
+.circle_3 {
+	border: 6px solid var(--clr--circle--three);
+}
+.circle_4 {
+	border: 6px solid var(--clr--circle--four);
+}
+
+/* END SECTION CHOOSE US */
+/* -------------------------------------------------- */
+/* SECTION xxxxx */
+/* END SECTION xxxxxx */
+/* -------------------------------------------------- */
