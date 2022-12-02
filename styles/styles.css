@@ -459,6 +459,23 @@
 /* END SECTION MAP */
 /* -------------------------------------------------- */
 
+/* SECTION ENDPAGE */
+
+.container--endpage {
+	width: 100%;
+	background-color: white;
+	color: var(--clr--grey--dark);
+	text-align: center;
+	padding: 10px;
+}
+
+.endpage--link {
+	text-decoration: none;
+	color: var(--clr--grey--dark);
+}
+
+/* END SECTION ENDPAGE */
+/* -------------------------------------------------- */
 /* SECTION xxxxx */
 /* END SECTION xxxxxx */
 /* -------------------------------------------------- */
