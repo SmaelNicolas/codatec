@@ -544,20 +544,26 @@
 @media only screen and (max-width: 650px) {
 	.container--footer {
 		height: auto;
-		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
 		padding: 20px 10px;
+	}
+
+	.footer--card {
+		margin: 10px 0px;
 	}
 }
 
 /* END SECTION FOOTER */
 /* -------------------------------------------------- */
 /* SECTION MAP */
-.container--map {
+.big--container--map {
 	width: 100%;
+	background-color: white;
+}
+.container--map {
+	width: min(100%, 1000px);
 	height: 300px;
+	margin: 0 auto;
 	background-color: white;
 }
 
