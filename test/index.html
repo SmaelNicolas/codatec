@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Codatec</title>
+		<script
+			src="https://kit.fontawesome.com/12873818e3.js"
+			crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="/styles/styles.css" />
+		<script src="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js"></script>
+		<link
+			href="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css"
+			rel="stylesheet" />
+		<script src="./js/map.js" defer></script>
+		<script src="./js/index.js" defer></script>
+	</head>
+	<body>
+		<div id="#top" class="container--web">
+			<!-- NAVBAR DESKTOP-->
+			<nav class="container--navbar--desktop">
+				<a class="container--navbar--desktop--logo" href="#top"
+					>CODA TECHNOLOGY</a
+				>
+				<ul class="container--navbar--desktop--ul">
+					<li class="container--navbar--desktop--ul--li">
+						<a
+							class="container--navbar--desktop--ul--li--a"
+							href="#inicio"
+							>Inicio</a
+						>
+					</li>
+					<li class="container--navbar--desktop--ul--li">
+						<a
+							class="container--navbar--desktop--ul--li--a"
+							href="#top"
+							>Unify</a
+						>
+					</li>
+					<li class="container--navbar--desktop--ul--li">
+						<a
+							class="container--navbar--desktop--ul--li--a"
+							href="#servicios"
+							>Servicios</a
+						>
+					</li>
+					<li class="container--navbar--desktop--ul--li">
+						<a
+							class="container--navbar--desktop--ul--li--a"
+							href="#contacto"
+							>Contacto</a
+						>
+					</li>
+					<li class="container--navbar--desktop--ul--li">
+						<a
+							class="container--navbar--desktop--ul--li--a"
+							href="#map"
+							>Mapa</a
+						>
+					</li>
+				</ul>
+			</nav>
+
+			<!-- NAVBAR MOBILE-->
+			<nav class="container--navbar--mobile">
+				<div class="container--navbar--mobile--buttons">
+					<a class="container--navbar--mobile--logo" href="#top"
+					>CODA TECHNOLOGY</a
+					>
+					<button class="mobile-menu-btn">
+						<span class="menu-icon"></span>
+					</button>
+				</div>
+
+				<ul class="container--navbar--mobile--ul">
+					<li class="container--navbar--mobile--ul--li">
+						<a
+							class="container--navbar--mobile--ul--li--a"
+							href="#inicio"
+							>Inicio</a
+						>
+					</li>
+					<li class="container--navbar--mobile--ul--li">
+						<a
+							class="container--navbar--mobile--ul--li--a"
+							href="#top"
+							>Unify</a
+						>
+					</li>
+					<li class="container--navbar--mobile--ul--li">
+						<a
+							class="container--navbar--mobile--ul--li--a"
+							href="#servicios"
+							>Servicios</a
+						>
+					</li>
+					<li class="container--navbar--mobile--ul--li">
+						<a
+							class="container--navbar--mobile--ul--li--a"
+							href="#contacto"
+							>Contacto</a
+						>
+					</li>
+					<li class="container--navbar--mobile--ul--li">
+						<a
+							class="container--navbar--mobile--ul--li--a"
+							href="#map"
+							>Mapa</a
+						>
+					</li>
+				</ul>
+			</nav>
+
+			<!-- HERO -->
+			<section id="inicio" class="container--hero">
+				<h1 class="hero--title">CODA TECHNOLOGY</h1>
+				<div class="container--hero--links">
+					<a
+						class="hero--links hero--links--us"
+						href="#coda-technology"
+						>Nosotros</a
+					>
+					<a class="hero--links hero--links--contact" href="#contacto"
+						>Contacto</a
+					>
+				</div>
+			</section>
+
+			<!-- SERVICES -->
+			<section id="servicios" class="container--services">
+				<h2 class="services--title">Servicios</h2>
+				<p class="services--description">
+					Brindamos Las Mejores Soluciones en Informática y
+					Comunicaciones a Medida para su Empresa.
+				</p>
+				<div class="container--services--cards">
+					<div class="services--card">
+						<i
+							class="fa-solid fa-user-gear services--card--icon--comms"></i>
+						<h4 class="services--card--title">
+							COMUNICACIONES UNIFICADAS
+						</h4>
+						<p class="services--card--description">
+							Provisión de infraestructura, servicios y proyectos
+							integrales de informática y comunicaciones para
+							PyMes.
+						</p>
+					</div>
+					<div class="services--card">
+						<i
+							class="fa-solid fa-lock services--card--icon--security"></i>
+						<h4 class="services--card--title">
+							SEGURIDAD EMPRESARIAL Y PRIVADA
+						</h4>
+						<p class="services--card--description">
+							Provisión de sistemas de seguridad.
+						</p>
+					</div>
+					<div class="services--card">
+						<i
+							class="fa-solid fa-network-wired services--card--network"></i>
+						<h4 class="services--card--title">
+							INFRAESTRUCTURA DE REDES
+						</h4>
+						<p class="services--card--description">
+							Tendido de redes de fibra óptica y UTP, Data Center,
+							Redes Inalámbricas, certificaciones.
+						</p>
+					</div>
+					<div class="services--card">
+						<i
+							class="fa-solid fa-house-laptop services--card--icon--informatica"></i>
+						<h4 class="services--card--title">INFORMÁTICA</h4>
+						<p class="services--card--description">
+							Provisión de infraestructura, servicios y proyectos
+							integrales de informática y comunicaciones para
+							PyMes.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- QUESTION -->
+			<section class="container--question">
+				<h3 class="services--question">¿Tiene Alguna Duda?</h3>
+			</section>
+
+			<!-- WHY US -->
+			<section class="container--choose">
+				<h3 class="choose--title">¿POR QUE ELEGIRNOS?</h3>
+				<p class="choose--description">
+					Diseñamos soluciones a medida optimizando sus procesos y
+					reduciendo costos. Contacte con nuestros expertos; estamos
+					para guiarte!
+				</p>
+
+				<div class="container--choose--info">
+					<p class="choose--info--left">
+						Contacte con nuestros expertos. Estamos para guiarlo
+					</p>
+					<p class="choose--info--middle">
+						CODA Technology se ha consolidado como una empresa de
+						sólido renombre y socio estratégico para empresas
+						corporativas y pymes en relación a la consultoría,
+						diseño, provisión e implementación de soluciones de IT.
+						Las soluciones que comercializamos ocupan una posición
+						de liderazgo a nivel mundial, lo cual sumado a nuestra
+						experiencia y trayectoria, asegura la optimización del
+						negocio de nuestros clientes. CODA Technology es una
+						empresa en constante crecimiento y evolución, con
+						capacidad de entender la problemática de cada cliente,
+						ofrecer la solución adecuada y con el firme compromiso
+						de asegurar el éxito de cada proyecto.
+					</p>
+					<div class="choose--info--right">
+						<div class="choose--info--right--card">
+							<div
+								class="choose--info--right--card--number circle_1">
+								100
+							</div>
+							<p class="choose--info--right--card--description">
+								SATISFACER LAS NECESIDADES DE NUESTROS CLIENTES
+							</p>
+						</div>
+						<div class="choose--info--right--card">
+							<div
+								class="choose--info--right--card--number circle_2">
+								100
+							</div>
+							<p class="choose--info--right--card--description">
+								COMPROMISO Y RESPONSABILIDAD
+							</p>
+						</div>
+						<div class="choose--info--right--card">
+							<div
+								class="choose--info--right--card--number circle_3">
+								100
+							</div>
+							<p class="choose--info--right--card--description">
+								SERVICIO TÉCNICO PROFESIONAL
+							</p>
+						</div>
+						<div class="choose--info--right--card">
+							<div
+								class="choose--info--right--card--number circle_4">
+								100
+							</div>
+							<p class="choose--info--right--card--description">
+								GESTIÓN CLARA Y EFICIENTE
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- US -->
+			<section id="coda-technology" class="container--us">
+				<h3 class="us--title">NOSOTROS</h3>
+				<p class="us--description">
+					"COMPAÑÍA LÍDER EN LA PROVISIÓN DE INFRAESTRUCTURA,
+					SERVICIOS Y PROYECTOS INTEGRALES DE INFORMÁTICA Y
+					COMUNICACIONES. LLEVAMOS COMPROMISO ACERCANDO SOLUCIONES DE
+					T.I. A PEQUEÑAS, MEDIANAS Y GRANDES EMPRESAS."
+				</p>
+				<div class="container--us--images">
+					<img
+						class="us--images"
+						src="./assets/us/1.jpg"
+						alt="coda technology" />
+					<img
+						class="us--images"
+						src="./assets/us/2.jpg"
+						alt="coda technology" />
+					<img
+						class="us--images"
+						src="./assets/us/3.jpg"
+						alt="coda technology" />
+					<img
+						class="us--images"
+						src="./assets/us/4.jpg"
+						alt="coda technology" />
+					<img
+						class="us--images"
+						src="./assets/us/5.jpg"
+						alt="coda technology" />
+					<img
+						class="us--images"
+						src="./assets/us/6.jpg"
+						alt="coda technology" />
+					<img
+						class="us--images"
+						src="./assets/us/7.jpg"
+						alt="coda technology" />
+					<img
+						class="us--images"
+						src="./assets/us/8.jpg"
+						alt="coda technology" />
+					<img
+						class="us--images"
+						src="./assets/us/9.jpg"
+						alt="coda technology" />
+					<img
+						class="us--images"
+						src="./assets/us/10.jpg"
+						alt="coda technology" />
+				</div>
+			</section>
+
+			<!-- FORM -->
+			<!-- <section>FORMULARIO</section> -->
+
+			<!-- FOOTER -->
+			<footer id="contacto" class="container--footer">
+				<div class="footer--card">
+					<i
+						class="fa-solid fa-location-dot footer--card--location"></i>
+					<p class="footer--card--description">
+						Avda. General Paz 323 Piso 6 - Córdoba - Argentina
+					</p>
+				</div>
+				<div class="footer--card">
+					<i class="fa-solid fa-envelope footer--card--mail"></i>
+					<p class="footer--card--description">info@codatec.com.ar</p>
+				</div>
+				<div class="footer--card">
+					<i
+						class="fa-solid fa-square-phone-flip footer--card--phone"></i>
+					<p class="footer--card--description">0351 364-3246</p>
+				</div>
+			</footer>
+
+			<!-- MAPA -->
+			<div class="big--container--map">
+				<div id='map' class="container--map"></div>
+			</div>
+
+			</div>
+
+			<div class="container--endpage">
+				Realizado por
+				<a class="endpage--link" href="https://viatech1.com/"
+					>ViaTech</a
+				>
+			</div>
+		</div>
+	</body>
+</html>
